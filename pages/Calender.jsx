@@ -282,7 +282,7 @@ const Calender = () => {
                           <Col>
                             <Select
                               size="small"
-                              dropdownMatchSelectWidth={false}
+                              popupMatchSelectWidth={false}
                               className="my-year-select"
                               value={year}
                               onChange={(newYear) => {
@@ -296,7 +296,7 @@ const Calender = () => {
                           <Col>
                             <Select
                               size="small"
-                              dropdownMatchSelectWidth={false}
+                              popupMatchSelectWidth={false}
                               value={month}
                               onChange={(newMonth) => {
                                 const now = value.clone().month(newMonth);
