@@ -2,12 +2,12 @@ import modalCrossIcon from "../public/images/modal-cross-icon.svg";
 import logo from '../public/images/logo.svg';
 import Image from "next/image";
 import bgImage from '../public/images/modal-bg.png';
-
+import CommonModal from "./CommonModel/CommonModal";
 
 function AdminQueriesModalContent({ modalContent, handleCancelModal }) {
   return (
     <>
-  
+    
 
     <div
       className="flex pt-5 pb-20 px-10 flex-col gap-3"

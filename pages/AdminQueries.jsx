@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from "react";
-import CommonModal from "./CommonModel/CommonModal";
-import AdminQueriesModalContent from "./AdminQueriesModalContent";
+// import CommonModal from "./CommonModel/CommonModal";
+// import AdminQueriesModalContent from "./AdminQueriesModalContent";
 import { Table } from '../node_modules/antd/dist/antd';
 import Image from 'next/image';
 import searchIcon from "../public/images/search-icon-2.svg";
@@ -299,7 +299,7 @@ const handleSearch  = (event) => {
         </div>
 
       </div>
-      <CommonModal
+      {/* <CommonModal
         title=""
         children={
           <AdminQueriesModalContent
@@ -309,7 +309,7 @@ const handleSearch  = (event) => {
         }
         isModalOpen={open}
         handleCancel={handleCancelModal}
-      />
+      /> */}
     </>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import Image from 'next/image';
-import CommonModal from "./CommonModel/CommonModal";
-import TriagesModalContent from "./TriagesModalContent";
+// import CommonModal from "./CommonModel/CommonModal";
+// import TriagesModalContent from "./TriagesModalContent";
 import { Popover, Checkbox } from '../node_modules/antd/dist/antd';
 import bgImg from "../public/images/request-bg.svg";
 import searchIcon from '../public/images/search-icon-2.svg';
@@ -527,7 +527,7 @@ const Triages = () => {
         </table>
         </div>
       </div>
-      <CommonModal
+      {/* <CommonModal
         title=""
         children={
           <TriagesModalContent
@@ -537,7 +537,7 @@ const Triages = () => {
         }
         isModalOpen={open}
         handleCancel={handleCancelModal}
-      />
+      /> */}
      
 
 
