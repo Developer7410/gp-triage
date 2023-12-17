@@ -360,7 +360,7 @@ const customColors = [
                 <p className="text-gray-600 sm:ps-2 ps-2 sm:font-medium sm:text-lg text-sm leading-normal">
                   Recent Appointments Booked
                 </p>
-              <Link href=''>
+              <Link href='/Triages'>
                 <p className='text-[13px] text-[#3A36DB]'>See More</p>
               </Link>
 
