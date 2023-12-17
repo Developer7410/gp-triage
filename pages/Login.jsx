@@ -103,9 +103,9 @@ const Login = () => {
                
                 className="bg-[#0E72B7] rounded-lg py-4 px-4 w-full font-dm-sans text-base font-medium leading-normal text-white"
               >
-                <Link href='/'>
-                  Log in
-                  </Link>
+               <Link href='/'>
+                Log in
+                </Link>
               </button>
 
   
