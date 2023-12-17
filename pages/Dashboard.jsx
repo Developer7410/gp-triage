@@ -316,7 +316,7 @@ const customColors = [
                   <div className="flex flex-col gap-2 pe-2">
                     <div className="flex gap-8 flex-wrap">
                       <p className="text-[#515b6b] text-sm leading normal ">
-                        Appointments Bo
+                        Appointments Booked
                       </p>
                       <p className="text-[#0E72B7] xl:ps-5 text-xs leading-normal">
                         +140 This Week
