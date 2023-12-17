@@ -98,15 +98,16 @@ const Login = () => {
                   </p>
                 </div>
               </div>
-<Link href="/">
   
               <button
                
                 className="bg-[#0E72B7] rounded-lg py-4 px-4 w-full font-dm-sans text-base font-medium leading-normal text-white"
               >
-                Log in
+                <Link href='/'>
+                  Log in
+                  </Link>
               </button>
-</Link>
+
   
 </div>
             <p className="text-[#06152B] text-base font-dm-sans leading-normal font-medium">
