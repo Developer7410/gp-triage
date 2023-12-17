@@ -98,13 +98,17 @@ const Login = () => {
                   </p>
                 </div>
               </div>
+<Link href="/">
+  
               <button
                
                 className="bg-[#0E72B7] rounded-lg py-4 px-4 w-full font-dm-sans text-base font-medium leading-normal text-white"
               >
                 Log in
               </button>
-            </div>
+</Link>
+  
+</div>
             <p className="text-[#06152B] text-base font-dm-sans leading-normal font-medium">
               Don’t have account yet?{" "}
               <span className="text-[#FC8D71] cursor-pointer">New Account</span>
